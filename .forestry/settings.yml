@@ -9,8 +9,9 @@ sections:
 - type: directory
   path: src/assets/content/blog
   label: Blog Posts
-  create: documents
+  create: all
   match: "**/*"
+  exclude: src/assets/content/blog/porfolio
   templates:
   - blog-post
 - type: document
