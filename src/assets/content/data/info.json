@@ -1,0 +1,11 @@
+{
+  "description": "<p>Soy <a href=\"https://www.linkedin.com/in/ignaciovaxeras/\" title=\"Mi LinkedIn\">Nacho</a> y esta es mi página web.</p>",
+  "cta": "<p>Si quieres saber más sobre mí, visita mi perfil de <a href=\"https://www.linkedin.com/in/ignaciovaxeras/\" title=\"Mi LinkedIn\">LinkedIn</a>.</p>",
+  "contact": {
+    "email": "correo@ejemplo.com",
+    "twitter_handle": "Twitter",
+    "github_handle": "forestryio"
+  },
+  "background_color": "black",
+  "text_color": "#ebebeb"
+}
