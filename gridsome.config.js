@@ -19,7 +19,7 @@ module.exports = {
       options: {
         typeName: 'Blog',
         baseDir: "./src/assets/content/",
-        path: 'blog/posts/**/*.md',
+        path: 'blog/**/*.md',
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
