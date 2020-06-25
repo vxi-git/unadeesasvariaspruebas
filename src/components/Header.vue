@@ -4,6 +4,7 @@
             <g-link to="/" exact>
                 <h1>{{ $static.metaData.siteName }}</h1>
             </g-link>
+            <div class="notranslate"></div>
             <div>
                 
                 
