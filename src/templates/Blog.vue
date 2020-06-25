@@ -121,7 +121,7 @@ query getPostData ($path: String!) {
             margin-bottom: 1.5rem;
         }
         p {
-            color: #1111;
+            color: #111111;
             font-weight: normal;
             img {
                 margin: 1rem 0;
