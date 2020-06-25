@@ -1,5 +1,6 @@
 <template>
     <header class="header">
+    <meta name="google" content="notranslate" />
         <nav class="nav">
             <g-link to="/" exact>
                 <h1>{{ $static.metaData.siteName }}</h1>
