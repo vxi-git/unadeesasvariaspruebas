@@ -32,7 +32,7 @@ module.exports = {
       options: {
         typeName: 'Porfolio',
         baseDir: "./src/assets/content/",
-        path: 'blog/porfolio/**/*.md',
+        path: 'porfolio/**/*.md',
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
