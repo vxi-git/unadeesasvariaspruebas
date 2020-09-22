@@ -1,7 +1,8 @@
 ---
+'1': "/src/assets/content/images/503420334.jpg"
 title: Sunflower Sutra
 author: Allen Ginsberg
-date: 2019-07-31T07:00:00Z
+date: 2019-07-31T07:00:00.000+00:00
 hero_image: "/src/assets/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 
 ---
@@ -23,13 +24,11 @@ and Hells of the Eastern rivers, bridges clanking Joes greasy Sandwiches, dead b
 
 and the gray Sunflower poised against the sunset, crackly bleak and dusty with the smut and smog and smoke of olden locomotives in its eye–
 
-corolla of bleary spikes pushed down and broken like a battered crown, seeds fallen out of its face, soon-to-be-toothless mouth of sunny air, sunrays obliterated on its hairy head like a dried wire spiderweb,
+    corolla of bleary spikes pushed down and broken like a battered crown, seeds fallen out of its face, soon-to-be-toothless mouth of sunny air, sunrays obliterated on its hairy head like a dried wire spiderweb,
 
 leaves stuck out like arms out of the stem, gestures from the sawdust root, broke pieces of plaster fallen out of the black twigs, a dead fly in its ear,
 
-Unholy battered old thing you were, my sunflower O my soul, I loved you then!
-
-![](/src/assets/content/images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg)
+    Unholy battered old thing you were, my sunflower O my soul, I loved you then!
 
 The grime was no man’s grime but death and human locomotives,
 
