@@ -24,6 +24,11 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: '1'
+  type: file
+  config:
+    maxSize: 64
+  label: '1'
 pages:
 - src/assets/content/blog/an-essay-on-walking.md
 - src/assets/content/blog/ne-te-quaesiveris-extra.md
