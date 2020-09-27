@@ -29,6 +29,22 @@ fields:
   config:
     maxSize: 64
   label: '1'
+- name: '11'
+  type: blocks
+  label: '1'
+  template_types:
+  - blog-post
+  - blog-post
+  config:
+    min: 
+    max: 
+  showOnly:
+    field: author
+    value: Allen Ginsberg
+- name: '22'
+  type: boolean
+  label: '2'
+  default: false
 pages:
 - src/assets/content/blog/an-essay-on-walking.md
 - src/assets/content/blog/ne-te-quaesiveris-extra.md
