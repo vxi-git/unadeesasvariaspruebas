@@ -1,6 +1,6 @@
 ---
 id: proyecto1
-title: p1
+title: Perros
 author: Henry David Thoreau
 hero_image: "/src/assets/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
 ---
@@ -26,6 +26,8 @@ and the gray Sunflower poised against the sunset, crackly bleak and dusty with t
 corolla of bleary spikes pushed down and broken like a battered crown, seeds fallen out of its face, soon-to-be-toothless mouth of sunny air, sunrays obliterated on its hairy head like a dried wire spiderweb,
 
 leaves stuck out like arms out of the stem, gestures from the sawdust root, broke pieces of plaster fallen out of the black twigs, a dead fly in its ear,
+
+<img src="https://images.unsplash.com/photo-1601758123927-4f7acc7da589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" width="500"/>
 
 Unholy battered old thing you were, my sunflower O my soul, I loved you then!
 

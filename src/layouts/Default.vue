@@ -9,7 +9,6 @@
 
 <script>
 import Header from '~/components/Header.vue'
-
     export default {
         components: {
             Header
@@ -45,8 +44,8 @@ import Header from '~/components/Header.vue'
     }
     .content {
       flex-grow: none;
-      width: 70vw;
-      margin-left: 30vw;
+      width: 80vw;
+      margin-left: 20vw;
     }
   }
 </style>

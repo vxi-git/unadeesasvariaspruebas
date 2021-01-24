@@ -13,9 +13,7 @@
                         </g-image>
                     </div>
                     <div class="blogList__info">
-                        <h2>{{ post.node.title }}</h2>
-                        
-                        
+                        <h2>{{ post.node.title }}</h2>                       
                     </div>
                 </li>
             </g-link>            
@@ -32,6 +30,9 @@
             }
         },
         methods: {
+          formatDate(date) {
+            return new Date(date).toDateString().slice(4)
+          }, 
           formatExcerpt(excerpt) {
             const blurb = excerpt.slice(3,200).trim()
             return blurb.indexOf('</p>') !== -1 ? blurb.slice( 0, blurb.indexOf('</p>')  ).trim()  + "..." : blurb  + "..."
@@ -42,20 +43,30 @@
 
 <style scoped lang="scss">
 .list {
+  div.hero_image {
+          img {
+            -webkit-transform: scale(1);
+	          transform: scale(1);
+            -webkit-transition: all 1s ease-in-out;
+            transition: all .3s ease-in-out;
+          }
+}
     a:hover {
       opacity: 1;
       li {
         div.hero_image {
           img {
-            opacity: 0.8;
-            transition: opacity 0.3s ease;
+            -webkit-transform: scale(1.25);
+	          transform: scale(1.25);
+            -webkit-transition: all 1s ease;
+            transition: all .3s ease;
           }
         }
       }
     }
     .hero_image {
       width: 100%;
-      height: 33vh;
+      height: 45vh;
       overflow: hidden;
       background-color: #000;
       img {
@@ -70,8 +81,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 1.5rem 1.25rem;
-      border-bottom: 1px solid #bbbbbb;
+      padding: 0rem 1.5rem;
+      border-bottom: 0px solid #bbbbbb;
       h2,
       h3,
       p {
@@ -91,49 +102,46 @@
       margin-bottom: 0;
     }
     h2 {
-      margin-bottom: 0.5rem;
+      color: #5f5f5f;
+      margin-bottom: 0rem;
+      margin-top: -5rem;
+      font-weight: normal;
+      font-size: 25px;
+      mix-blend-mode: multiply;
     }
-    h3 {
-      margin-bottom: 1rem;
-    }
-    p {
-      max-width: 900px;
-      color: #464646;
+    a:hover,
+    a:hover h2 {
+    color: #5F5F5F;
+    transition: all 0.2s ease 0s;
+    mix-blend-mode: color-dodge;
     }
   }
   
   @media (min-width: 768px) {
     .list {
       a:hover {
+        
         opacity: 1;
         li {
           div.hero_image {
-            img {
-              opacity: 0.8;
-              -webkit-transition: opacity 0.3 ease;
-              transition: opacity 0.3s ease;
-            }
+            cursor: url("https://img.icons8.com/ios/72/circled-chevron-right.png"), auto;
           }
           div.blogList__info {
-            h2,
-            h3,
-            p {
-              -webkit-transform: translateX(10px);
-              transform: translateX(10px);
-              -webkit-transition: transform 0.5s ease-out;
-              transition: transform 0.5s ease-out;
-            }
+            cursor: url("https://img.icons8.com/ios/72/circled-chevron-right.png"), auto;
           }
         }
       }
       li {
         min-height: 250px;
-        height: 33.333vh;
-        flex-direction: row;
+        height: 33.33vh;
+        flex-direction: column;
       }
+      
       .hero_image {
         height: 100%;
+        min-width: 55%;
         img {
+          
           min-width: 100%;
           height: 100%;
           width: auto;
@@ -141,7 +149,7 @@
         }
       }
       .blogList__info {
-        min-width: 25%;
+        min-width: 45%;
       }
     }
   }
@@ -149,10 +157,7 @@
   @media (min-width: 1280px) {
     .list {
       .blogList__info {
-        padding: 3rem;
-      }
-      h3 {
-        margin-bottom: 1.2rem;
+        padding: 0rem 2rem 0rem;
       }
     }
   }

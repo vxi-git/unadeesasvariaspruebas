@@ -2,30 +2,21 @@
     <header class="header">
         <nav class="nav">
             <g-link to="/" exact>
-                <h1>{{ $static.metaData.siteName }}</h1>
+                <g-image class="logo" src="~/assets/content/images/logo.svg" width="150"/>
             </g-link>
             <div class="notranslate"></div>
-            <div>
-                
-                
+            <div class="links">
                     <g-link to="/porfolio/">
-                    porfolio
+                    work
                     </g-link>
-                
-                
-                
-                    &nbsp;<br><g-link to="/blog/">
+    
+                    <g-link to="/blog/">
                     blog
                     </g-link>
                 
-                
-                
-                    &nbsp;<br><g-link :to="infoLink">
+                    <g-link :to="infoLink">
                         {{ isInfoPage ? "X&nbsp;" : "info" }}
                     </g-link>                    
-                
-
-
             </div>
         </nav>
     </header>
@@ -52,7 +43,7 @@ export default {
 
 <static-query>
     query {
-    metaData {
+    metadata {
         siteName
     }
     }
@@ -65,7 +56,7 @@ export default {
   
 .nav {
     padding: 1.5rem 1.25rem;
-    border-bottom: 1px solid #bbbbbb;
+    border-bottom: 0px solid #bbbbbb;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -74,6 +65,13 @@ export default {
 
 .nav img {
      margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: no-wrap;
 }
 
 
@@ -85,6 +83,15 @@ export default {
     br {
         display: none;
     }
+    .links {
+    flex-direction: row;
+    gap: 1.25rem;
+    }
+
+    .logo {
+        max-width: 6rem;
+    }
+
 }
 
 
@@ -101,7 +108,7 @@ export default {
     
     .nav {
       padding: 2rem;
-      width: 30vw;
+      width: 20vw;
       height: 100%;
       border-right: 1px solid #bbbbbb;
       border-bottom: none;

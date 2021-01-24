@@ -142,7 +142,7 @@ query getPostData ($path: String!) {
         align-items: center;
         padding: 1.5rem 1.25rem;
         width: 100%;
-        max-width: 800px;
+        max-width: 1280px;
         margin: 0 auto;
         h2 {
             margin-bottom: 0;
@@ -163,7 +163,7 @@ query getPostData ($path: String!) {
             flex-direction: column;
         }
         .porfolio__body {
-            max-width: 800px;
+            max-width: 1280px;
             padding: 0 2rem;
             span {
             width: 100%;

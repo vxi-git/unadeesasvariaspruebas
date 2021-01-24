@@ -1,5 +1,5 @@
 ---
-title: An Essay on Walking
+title: Identidad Visual de una marca de algodones muy chula que tienes que probar porque mola
 author: Henry David Thoreau
 date: 2019-07-29T07:00:00Z
 hero_image: "/src/assets/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
