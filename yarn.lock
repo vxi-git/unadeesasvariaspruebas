@@ -982,14 +982,6 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@rnwcode/vue-mouse-cursor@^0.7.20":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@rnwcode/vue-mouse-cursor/-/vue-mouse-cursor-0.0.5.tgz#8be433c62e2d549a32b3faf3c6b142dd6c849b18"
-  integrity sha512-TI+ToD+IoSNKLiRdIJQ3wmbPBrYuztHEx50lORC+pW2r4dzYI8WL2z9BT8wQiHkAK8A6DXQd3KIg+m9OCGsGvw==
-  dependencies:
-    core-js "^3.4.8"
-    vue "^2.6.10"
-
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"

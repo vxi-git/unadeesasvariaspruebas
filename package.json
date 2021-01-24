@@ -23,7 +23,6 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.2",
     "@luxdamore/vue-cursor-fx": "^1.5.0",
-    "@rnwcode/vue-mouse-cursor": "^0.7.20",
     "gridsome": "^0.7.23",
     "kursor": "^0.1.6",
     "node-sass": "^4.12.0",
